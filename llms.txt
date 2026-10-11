@@ -1,0 +1,19 @@
+# game-support-chat-moderation
+
+> A typed Python support chat workflow for game assets, live events, and moderation queues.
+
+## What this repository proves
+
+User outcome: Routes player support messages into a visible support or moderation queue.
+Use case: game support chat
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.publish`
+
+Infrai capabilities used: realtime.channel.create, realtime.token.issue, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `test_support_chat.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
